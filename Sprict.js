@@ -3,6 +3,6 @@ function makeSequence() {
     return function() {
         if (x == 20) { x = 0 }
         else { x += 4 }
-        return x;
+        wait()
     }
 }
